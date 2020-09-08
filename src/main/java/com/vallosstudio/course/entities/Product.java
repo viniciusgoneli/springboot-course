@@ -98,7 +98,7 @@ public class Product implements Serializable {
 		Set<Order> set = new HashSet<>();
 		for(OrderItem x : items) {
 			set.add(x.getOrder());
-		}
+		} 
 		return set;
 	}
 
